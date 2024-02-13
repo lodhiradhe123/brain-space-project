@@ -12,13 +12,66 @@ body {
 #page1 {
   width: 100%;
   height: 100vh;
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
 }
 
 #page2 {
   width: 100%;
   height: 100vh;
-  background-color: rgb(239, 213, 110);
+  /* background-color: rgb(239, 213, 110); */
+  position: relative;
+  padding: 4vw 5vw;
+}
+#page2 h1 {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+  font-weight: 200;
+  padding: 4vw;
+}
+#left-page2 {
+  width: 35%;
+  height: 50%;
+  background-color: grey;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#right-page2 {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+#right-page2 h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+#right-page2 p {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 2vw 0;
+}
+#right-page2 button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+#blur {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.284);
+  position: absolute;
+  z-index: 9;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+#page2 img {
+  position: absolute;
+  transform: translatey(12%);
+  right: 90%;
 }
 #page3 {
   width: 100%;

@@ -41,3 +41,10 @@ gsap.to("nav i", {
     scrub: true,
   },
 });
+
+gsap.to("#page2 img", {
+  transform: "translateY(12%) translateX(75%)",
+  duration: 15,
+  repeat: -1,
+  ease: "none",
+});
